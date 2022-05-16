@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  url: 'http://localhost:5000/firestore-grafica-gudy/us-central1/api',
+  firebase: {
+    projectId: 'xxx',
+    appId: 'xxx',
+    storageBucket: 'xxx',
+    locationId: 'xxx',
+    apiKey: 'xxx',
+    authDomain: 'xxx',
+    messagingSenderId: 'xxx',
+  },
 };
 
 /*
